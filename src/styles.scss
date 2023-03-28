@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// collection of all categories
+.products{
+  background-color: aliceblue;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+// each category item
+.product-category{
+  background-color: rgba(0,0,0, 0.1);
+  text-transform: capitalize;
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  cursor: pointer
+}
+
+.product-category:hover{
+  background-color: rgba(0,0,0, 0.3);
+}
+
+// parent of below items
+.product-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/*
+parent of image, title, price
+*/
+.product-item{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  width: 10rem;
+}
+
+.product-image{
+  height: 10rem;
+  border-radius: 0.4rem;
+}
+
+.product-title{
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.product-price{
+  
+  fond-size: 0.7rem;
+}
